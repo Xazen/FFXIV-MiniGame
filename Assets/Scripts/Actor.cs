@@ -49,6 +49,8 @@ public abstract class Actor : MonoBehaviour
     public event ActorRaiseDelegate OnActorRaiseDelegate;
 
     public int MaxHP { get { return _maxHp; } }
+    public int CurrentHP { get { return _currentHp; } }
+    public int MaxMP { get { return _maxMp; } }
 
     public virtual void Start()
     {

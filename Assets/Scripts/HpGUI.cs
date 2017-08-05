@@ -15,11 +15,8 @@ public class HpGUI : MonoBehaviour {
     void Start()
     {
         _hpBarImage.fillAmount = _actor.MaxHP;
-        _actor.OnHpChangedDelegate += OnHpChanged;
-
         _hpText.text = _actor.MaxHP.ToString();
         _actor.OnHpChangedDelegate += OnHpChanged;
-
     }
 
     private void OnHpChanged(Actor actor, int oldValue, int newValue)
@@ -30,7 +27,6 @@ public class HpGUI : MonoBehaviour {
 
     private void OnDestroy()
     {
-        _actor.OnHpChangedDelegate -= OnHpChanged;
         _actor.OnHpChangedDelegate -= OnHpChanged;
     }
 }
