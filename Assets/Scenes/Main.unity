@@ -367,6 +367,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 72519529}
+  - component: {fileID: 72519531}
+  - component: {fileID: 72519530}
   m_Layer: 0
   m_Name: Black Mage
   m_TagString: Untagged
@@ -390,6 +392,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &72519530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 72519528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd2d6db645b2c04c94abb0895431243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attackDamage: 120
+--- !u!114 &72519531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 72519528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a26741d92bcdec4d8e2bea9eab3d45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 1368244408}
+  _maxHp: 2100
+  _autoHpRegenerateValue: 0
+  _autoHpRegenerateFrequency: 0
+  _maxMp: 0
+  _autoMpRegenerateValue: 0
+  _autoMpRegenerateFrequency: 0
+  _attackTarget: {fileID: 1585425446}
+  _autoAttack: {fileID: 72519530}
+  _attackFrequency: 3
 --- !u!1 &84448324
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,7 +572,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 47.09999, y: 0}
+  m_SizeDelta: {x: 34.399994, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116758825
 MonoBehaviour:
@@ -2541,7 +2576,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 47.09999, y: 0}
+  m_SizeDelta: {x: 34.399994, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600636712
 MonoBehaviour:
@@ -3165,8 +3200,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 901770209}
-  - component: {fileID: 901770211}
-  - component: {fileID: 901770210}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -3196,39 +3229,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &901770210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 901770208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &901770211
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 901770208}
 --- !u!1 &909540589
 GameObject:
   m_ObjectHideFlags: 0
@@ -3874,7 +3874,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 47.09999, y: 0}
+  m_SizeDelta: {x: 34.399994, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013857527
 MonoBehaviour:
@@ -4574,7 +4574,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 47.09999, y: 0}
+  m_SizeDelta: {x: 34.399994, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261548833
 MonoBehaviour:
@@ -5085,6 +5085,51 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1399662024}
+--- !u!1 &1416639787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1416639788}
+  - component: {fileID: 1416639789}
+  m_Layer: 0
+  m_Name: GameSystem
+  m_TagString: GameSystem
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1416639788
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1416639787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1416639789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1416639787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50ac1bb881d99ab41b6de543edb119b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  BlackMage: {fileID: 72519531}
+  Tank: {fileID: 0}
+  MeleeDps: {fileID: 0}
+  Hydra: {fileID: 1585425446}
 --- !u!1 &1457334632
 GameObject:
   m_ObjectHideFlags: 0
@@ -5222,7 +5267,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 47.09999, y: 0}
+  m_SizeDelta: {x: 34.399994, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511104584
 MonoBehaviour:
@@ -5705,6 +5750,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1585425445}
+  - component: {fileID: 1585425446}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -5727,6 +5773,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1585425446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1585425444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eaccba997e709e42bd0c8dc89a15b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 910843419}
+  _maxHp: 20000
+  _autoHpRegenerateValue: 0
+  _autoHpRegenerateFrequency: 0
+  _maxMp: 0
+  _autoMpRegenerateValue: 0
+  _autoMpRegenerateFrequency: 0
 --- !u!1 &1588547708
 GameObject:
   m_ObjectHideFlags: 0
@@ -6686,7 +6750,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 47.09999, y: 0}
+  m_SizeDelta: {x: 34.399994, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1959571367
 MonoBehaviour:
@@ -6793,6 +6857,7 @@ GameObject:
   - component: {fileID: 1987350142}
   - component: {fileID: 1987350145}
   - component: {fileID: 1987350144}
+  - component: {fileID: 1987350143}
   m_Layer: 5
   m_Name: HPBar
   m_TagString: Untagged
@@ -6818,6 +6883,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1987350143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1987350141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257d68d38c17d0a43b102abb74d3bc43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actor: {fileID: 1585425446}
 --- !u!114 &1987350144
 MonoBehaviour:
   m_ObjectHideFlags: 0
