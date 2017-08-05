@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 64c58fc0862b28a40947194980433936
+timeCreated: 1501940689
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Jupiter Pro
+  fontNames:
+  - Jupiter Pro
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

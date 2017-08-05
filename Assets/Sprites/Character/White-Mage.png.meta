@@ -1,9 +1,93 @@
 fileFormatVersion: 2
 guid: 3b9fe89ad63f9b04c81d88a4b36fabf3
-timeCreated: 1501935442
+timeCreated: 1501943803
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: White-Mage_0
+    21300002: White-Mage_1
+    21300004: White-Mage_2
+    21300006: White-Mage_3
+    21300008: White-Mage_4
+    21300010: White-Mage_5
+    21300012: White-Mage_6
+    21300014: White-Mage_7
+    21300016: White-Mage_8
+    21300018: White-Mage_9
+    21300020: White-Mage_10
+    21300022: White-Mage_11
+    21300024: White-Mage_12
+    21300026: White-Mage_13
+    21300028: White-Mage_14
+    21300030: White-Mage_15
+    21300032: White-Mage_16
+    21300034: White-Mage_17
+    21300036: White-Mage_18
+    21300038: White-Mage_19
+    21300040: White-Mage_20
+    21300042: White-Mage_21
+    21300044: White-Mage_22
+    21300046: White-Mage_23
+    21300048: White-Mage_24
+    21300050: White-Mage_25
+    21300052: White-Mage_26
+    21300054: White-Mage_27
+    21300056: White-Mage_28
+    21300058: White-Mage_29
+    21300060: White-Mage_30
+    21300062: White-Mage_31
+    21300064: White-Mage_32
+    21300066: White-Mage_33
+    21300068: White-Mage_34
+    21300070: White-Mage_35
+    21300072: White-Mage_36
+    21300074: White-Mage_37
+    21300076: White-Mage_38
+    21300078: White-Mage_39
+    21300080: White-Mage_40
+    21300082: White-Mage_41
+    21300084: White-Mage_42
+    21300086: White-Mage_43
+    21300088: White-Mage_44
+    21300090: White-Mage_45
+    21300092: White-Mage_46
+    21300094: White-Mage_47
+    21300096: White-Mage_48
+    21300098: White-Mage_49
+    21300100: White-Mage_50
+    21300102: White-Mage_51
+    21300104: White-Mage_52
+    21300106: White-Mage_53
+    21300108: White-Mage_54
+    21300110: White-Mage_55
+    21300112: White-Mage_56
+    21300114: White-Mage_57
+    21300116: White-Mage_58
+    21300118: White-Mage_59
+    21300120: White-Mage_60
+    21300122: White-Mage_61
+    21300124: White-Mage_62
+    21300126: White-Mage_63
+    21300128: White-Mage_64
+    21300130: White-Mage_65
+    21300132: White-Mage_66
+    21300134: White-Mage_67
+    21300136: White-Mage_68
+    21300138: White-Mage_69
+    21300140: White-Mage_70
+    21300142: White-Mage_71
+    21300144: White-Mage_72
+    21300146: White-Mage_73
+    21300148: White-Mage_74
+    21300150: White-Mage_75
+    21300152: White-Mage_76
+    21300154: White-Mage_77
+    21300156: White-Mage_78
+    21300158: White-Mage_79
+    21300160: White-Mage_80
+    21300162: White-Mage_81
+    21300164: White-Mage_82
+    21300166: White-Mage_83
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -30,7 +114,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -39,13 +123,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -63,9 +147,1193 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: White-Mage_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 261
+        width: 19
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 261
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 261
+        width: 23
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 261
+        width: 20
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 261
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 262
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 261
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_7
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 274
+        width: 15
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_8
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 259
+        width: 14
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 221
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 220
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 221
+        width: 19
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 222
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 221
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 221
+        width: 20
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_15
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 221
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_16
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 242
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_17
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 219
+        width: 7
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 181
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_19
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 201
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 195
+        width: 14
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_21
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 200
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 195
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_23
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 199
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_24
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 196
+        width: 13
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_25
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 198
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 196
+        width: 11
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_27
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 199
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 146
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_29
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 173
+        width: 11
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 150
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 149
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 146
+        width: 9
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_33
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 146
+        width: 11
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_34
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 149
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_35
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 150
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_36
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 146
+        width: 11
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_37
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 114
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 130
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_39
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 122
+        width: 25
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_40
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 138
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_41
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 114
+        width: 19
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_42
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 119
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_43
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 119
+        width: 33
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_44
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 117
+        width: 29
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_45
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 130
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 114
+        width: 21
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_47
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 108
+        width: 20
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 82
+        width: 19
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 98
+        width: 23
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_50
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 98
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_51
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 99
+        width: 21
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_52
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 82
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_53
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 99
+        width: 19
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_54
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 98
+        width: 23
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_55
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 97
+        width: 18
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_56
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 84
+        width: 18
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_57
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 84
+        width: 18
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_58
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 84
+        width: 18
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_59
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 83
+        width: 19
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_60
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 82
+        width: 23
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_61
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 50
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_62
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 68
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_63
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 67
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_64
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 66
+        width: 18
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_65
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 68
+        width: 21
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_66
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 50
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_67
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 50
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_68
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 72
+        width: 18
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_69
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 50
+        width: 18
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_70
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 50
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_71
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 50
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_72
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 50
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_73
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 50
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_74
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 18
+        width: 18
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_75
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 23
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_76
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 26
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_77
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 26
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_78
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 37
+        width: 19
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_79
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 36
+        width: 9
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 20
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_81
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 10
+        width: 18
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_82
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 10
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: White-Mage_83
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 19
+        width: 20
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

@@ -1,9 +1,102 @@
 fileFormatVersion: 2
 guid: 90c71961d9af1a547ae70ad3e269c2c8
-timeCreated: 1501938568
+timeCreated: 1501943727
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Black-Mage_0
+    21300002: Black-Mage_1
+    21300004: Black-Mage_2
+    21300006: Black-Mage_3
+    21300008: Black-Mage_4
+    21300010: Black-Mage_5
+    21300012: Black-Mage_6
+    21300014: Black-Mage_7
+    21300016: Black-Mage_8
+    21300018: Black-Mage_9
+    21300020: Black-Mage_10
+    21300022: Black-Mage_11
+    21300024: Black-Mage_12
+    21300026: Black-Mage_13
+    21300028: Black-Mage_14
+    21300030: Black-Mage_15
+    21300032: Black-Mage_16
+    21300034: Black-Mage_17
+    21300036: Black-Mage_18
+    21300038: Black-Mage_19
+    21300040: Black-Mage_20
+    21300042: Black-Mage_21
+    21300044: Black-Mage_22
+    21300046: Black-Mage_23
+    21300048: Black-Mage_24
+    21300050: Black-Mage_25
+    21300052: Black-Mage_26
+    21300054: Black-Mage_27
+    21300056: Black-Mage_28
+    21300058: Black-Mage_29
+    21300060: Black-Mage_30
+    21300062: Black-Mage_31
+    21300064: Black-Mage_32
+    21300066: Black-Mage_33
+    21300068: Black-Mage_34
+    21300070: Black-Mage_35
+    21300072: Black-Mage_36
+    21300074: Black-Mage_37
+    21300076: Black-Mage_38
+    21300078: Black-Mage_39
+    21300080: Black-Mage_40
+    21300082: Black-Mage_41
+    21300084: Black-Mage_42
+    21300086: Black-Mage_43
+    21300088: Black-Mage_44
+    21300090: Black-Mage_45
+    21300092: Black-Mage_46
+    21300094: Black-Mage_47
+    21300096: Black-Mage_48
+    21300098: Black-Mage_49
+    21300100: Black-Mage_50
+    21300102: Black-Mage_51
+    21300104: Black-Mage_52
+    21300106: Black-Mage_53
+    21300108: Black-Mage_54
+    21300110: Black-Mage_55
+    21300112: Black-Mage_56
+    21300114: Black-Mage_57
+    21300116: Black-Mage_58
+    21300118: Black-Mage_59
+    21300120: Black-Mage_60
+    21300122: Black-Mage_61
+    21300124: Black-Mage_62
+    21300126: Black-Mage_63
+    21300128: Black-Mage_64
+    21300130: Black-Mage_65
+    21300132: Black-Mage_66
+    21300134: Black-Mage_67
+    21300136: Black-Mage_68
+    21300138: Black-Mage_69
+    21300140: Black-Mage_70
+    21300142: Black-Mage_71
+    21300144: Black-Mage_72
+    21300146: Black-Mage_73
+    21300148: Black-Mage_74
+    21300150: Black-Mage_75
+    21300152: Black-Mage_76
+    21300154: Black-Mage_77
+    21300156: Black-Mage_78
+    21300158: Black-Mage_79
+    21300160: Black-Mage_80
+    21300162: Black-Mage_81
+    21300164: Black-Mage_82
+    21300166: Black-Mage_83
+    21300168: Black-Mage_84
+    21300170: Black-Mage_85
+    21300172: Black-Mage_86
+    21300174: Black-Mage_87
+    21300176: Black-Mage_88
+    21300178: Black-Mage_89
+    21300180: Black-Mage_90
+    21300182: Black-Mage_91
+    21300184: Black-Mage_92
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -30,7 +123,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -39,13 +132,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -63,9 +156,1319 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Black-Mage_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 258
+        width: 21
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 257
+        width: 22
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 258
+        width: 21
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 257
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 257
+        width: 21
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 259
+        width: 22
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 259
+        width: 22
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 273
+        width: 17
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_8
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 257
+        width: 21
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 217
+        width: 22
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 217
+        width: 21
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 218
+        width: 21
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 218
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 217
+        width: 22
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 217
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 217
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_16
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 241
+        width: 21
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 223
+        width: 5
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 178
+        width: 21
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 201
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 198
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 200
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 198
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 199
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 198
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 199
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_26
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 198
+        width: 13
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_27
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 200
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_28
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 175
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 172
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 173
+        width: 7
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_31
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 173
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 171
+        width: 7
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 172
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 171
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_35
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 171
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_36
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 176
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_37
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 147
+        width: 28
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_38
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 152
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_39
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 152
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_40
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 148
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_41
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 150
+        width: 15
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_42
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 145
+        width: 10
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_43
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 145
+        width: 17
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 148
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_45
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 146
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_46
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 145
+        width: 12
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_47
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 115
+        width: 28
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 115
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_49
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 123
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_50
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 129
+        width: 18
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_51
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 121
+        width: 28
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_52
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 118
+        width: 34
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_53
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 115
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_54
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 129
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 113
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_56
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 105
+        width: 23
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_57
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 81
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_58
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 97
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_59
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 97
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_60
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 97
+        width: 21
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_61
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 81
+        width: 24
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_62
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 97
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_63
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 98
+        width: 21
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_64
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 95
+        width: 22
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_65
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 83
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_66
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 83
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_67
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 83
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_68
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 81
+        width: 18
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_69
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 81
+        width: 21
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_70
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 68
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_71
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 49
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_72
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 67
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_73
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 67
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_74
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 65
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_75
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 65
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_76
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 49
+        width: 25
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_77
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 49
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_78
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 49
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_79
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 49
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_80
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 49
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_81
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 49
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_82
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 49
+        width: 21
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_83
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 21
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 20
+        width: 9
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_85
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 25
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_86
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 25
+        width: 17
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_87
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 33
+        width: 19
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_88
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 31
+        width: 11
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_89
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 22
+        width: 21
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_90
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 9
+        width: 18
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_91
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 17
+        width: 19
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage_92
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 9
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
