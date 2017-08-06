@@ -28,6 +28,9 @@ public abstract class PlayerActionCommand : ActionCommand
     public delegate void PlayerActionStarted(PlayerActionCommand action);
     public event PlayerActionStarted OnPlayerActionStarted;
 
+    public delegate void InvalidCommandDelegate(string error);
+    public event InvalidCommandDelegate OnInvalidCommandDelegate;
+
     public override void Execute(Actor target)
     {
         if (_forceTarget != null)
@@ -43,6 +46,8 @@ public abstract class PlayerActionCommand : ActionCommand
         }
     }
 
+    public abstract bool CanBeUsed(Actor target);
+    
     public void ForceTarget(Actor target)
     {
         _forceTarget = target;

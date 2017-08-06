@@ -56,7 +56,8 @@ public class Player : Actor
     {
         if (actionCommand.CurrentRecastTime > 0 ||
             CurrentMP < actionCommand.MpCost ||
-            _target == null)
+            _target == null ||
+            !actionCommand.CanBeUsed(_target))
         {
             return;
         }

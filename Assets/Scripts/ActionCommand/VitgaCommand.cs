@@ -1,9 +1,15 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class VitgaCommand : PlayerActionCommand
 {
     [SerializeField]
     private int _healValue;
+
+    public override bool CanBeUsed(Actor target)
+    {
+        return true;
+    }
 
     public override void Execute(Actor target)
     {
