@@ -1109,6 +1109,9 @@ MonoBehaviour:
   _mpCost: 0
   _castTime: 2
   _recastTime: 2.5
+  _timeUntilDamage: 1.1
+  _effectPrefab: {fileID: 1852999247918548, guid: 41711969add5eb740b25290d7322d6d4,
+    type: 2}
 --- !u!1 &183517774
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,6 +2457,9 @@ MonoBehaviour:
   _castTime: 2
   _recastTime: 2.5
   _healValue: 600
+  _timeUntilDamage: 1
+  _effectPrefab: {fileID: 1594861368107578, guid: d6e9023817a0a0445b091ca5ce27f3f3,
+    type: 2}
 --- !u!1 &468121449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3884,6 +3890,9 @@ MonoBehaviour:
   _castTime: 2
   _recastTime: 2.5
   _healValue: 2100
+  _timeUntilDamage: 1
+  _effectPrefab: {fileID: 1686686437349102, guid: d1126583663ce794fbde3a38cd249bf6,
+    type: 2}
 --- !u!1 &654308521
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,6 +4405,9 @@ MonoBehaviour:
   _castTime: 6
   _recastTime: 2.5
   _healValue: 0.3
+  _timeUntilDamage: 1.225
+  _effectPrefab: {fileID: 1397115079527464, guid: 7bbde8a9633b50b4d83c2df5732c21f9,
+    type: 2}
 --- !u!1 &835473985
 GameObject:
   m_ObjectHideFlags: 0
@@ -6228,6 +6240,9 @@ MonoBehaviour:
   _mpCost: 15
   _castTime: 1
   _recastTime: 2.5
+  _timeUntilDamage: 1
+  _effectPrefab: {fileID: 1734682732298176, guid: 872c4a59e4bf9b944a8ae06ca0fc8d0a,
+    type: 2}
 --- !u!1 &1161822366
 GameObject:
   m_ObjectHideFlags: 0
@@ -9290,6 +9305,9 @@ MonoBehaviour:
   _castTime: 2
   _recastTime: 2.5
   _healValue: 1900
+  _timeUntilDamage: 1
+  _effectPrefab: {fileID: 1809103631886786, guid: 3fd53537312966d409e09bdea7b82faa,
+    type: 2}
 --- !u!1 &1770266242
 GameObject:
   m_ObjectHideFlags: 0
