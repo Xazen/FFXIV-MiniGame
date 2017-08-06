@@ -1,12 +1,9 @@
 fileFormatVersion: 2
-guid: 25d80e89b0e1aee46a816bdb5613f2b7
-timeCreated: 1502034710
+guid: fdb45cb3c3f56ad498c078218b7d905b
+timeCreated: 1502032010
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Tank-Effect_0
-    21300002: Tank-Effect_1
-    21300004: Tank-Effect_2
+  fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -33,7 +30,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -42,13 +39,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -66,59 +63,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
-    maxTextureSize: 2048
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Tank-Effect_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 131
-        width: 17
-        height: 46
-      alignment: 9
-      pivot: {x: 0.63247573, y: 0.13708363}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Tank-Effect_1
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 68
-        width: 15
-        height: 53
-      alignment: 9
-      pivot: {x: 0.3949029, y: 0.114728965}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Tank-Effect_2
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 2
-        width: 15
-        height: 58
-      alignment: 9
-      pivot: {x: 0.40991682, y: 0.16696498}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
     physicsShape: []
   spritePackingTag: 

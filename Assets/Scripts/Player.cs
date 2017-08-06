@@ -89,7 +89,7 @@ public class Player : Actor
             }
         }
 
-        if (_currentCastTime <= 0)
+        if (_currentCastTime <= 0 && _currentActionCommand != null)
         {
             ReduceMp(_currentActionCommand.MpCost);
             _currentActionCommand.Execute(_target);

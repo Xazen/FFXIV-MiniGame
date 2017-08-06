@@ -1,12 +1,14 @@
 fileFormatVersion: 2
-guid: 25d80e89b0e1aee46a816bdb5613f2b7
-timeCreated: 1502034710
+guid: e4648b73ba158a742abdb2a2caaefaf4
+timeCreated: 1502033295
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Tank-Effect_0
-    21300002: Tank-Effect_1
-    21300004: Tank-Effect_2
+    21300000: Weapons_0
+    21300002: Weapons_1
+    21300004: Weapons_2
+    21300006: Weapons_3
+    21300008: Weapons_4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -48,7 +50,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 33
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -78,43 +80,71 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tank-Effect_0
+      name: Weapons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 131
-        width: 17
-        height: 46
-      alignment: 9
-      pivot: {x: 0.63247573, y: 0.13708363}
+        x: 3
+        y: 53
+        width: 34
+        height: 11
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Tank-Effect_1
+      name: Weapons_1
       rect:
         serializedVersion: 2
-        x: 5
-        y: 68
-        width: 15
-        height: 53
-      alignment: 9
-      pivot: {x: 0.3949029, y: 0.114728965}
+        x: 42
+        y: 41
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Tank-Effect_2
+      name: Weapons_2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 2
-        width: 15
-        height: 58
-      alignment: 9
-      pivot: {x: 0.40991682, y: 0.16696498}
+        x: 7
+        y: 39
+        width: 23
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 20
+        width: 22
+        height: 9
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 23
+        height: 9
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

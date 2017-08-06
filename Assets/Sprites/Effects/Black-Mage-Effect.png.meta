@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: ecd703df835c27b4ca2ad77938d8274c
-timeCreated: 1501938595
+timeCreated: 1502032509
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Black-Mage-Effect_0
+    21300002: Black-Mage-Effect_1
+    21300004: Black-Mage-Effect_2
+    21300006: Black-Mage-Effect_3
+    21300008: Black-Mage-Effect_4
+    21300010: Black-Mage-Effect_5
+    21300012: Black-Mage-Effect_6
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -45,7 +52,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 33
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -73,7 +80,105 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Black-Mage-Effect_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 26
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage-Effect_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 26
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage-Effect_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 26
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage-Effect_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage-Effect_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 26
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage-Effect_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 26
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Black-Mage-Effect_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
