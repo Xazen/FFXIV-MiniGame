@@ -19,7 +19,8 @@ public class BossBasicCommand : ActionCommand
     private void TryCausingParalysis(Actor target)
     {
         float paralyzeChance = Random.Range(0f, 1f);
-        if (paralyzeChance > _paralyzedChance)
+        if (paralyzeChance > _paralyzedChance ||
+            target == GameSystem.Instance().Player)
         {
             return;
         }

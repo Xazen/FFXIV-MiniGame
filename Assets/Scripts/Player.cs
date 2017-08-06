@@ -31,7 +31,14 @@ public class Player : Actor
     private PlayerActionCommand _protect;
 
     private PlayerActionCommand[] _playerActions = new PlayerActionCommand[6];
-    private PartyMember _target;
+    private Actor _target;
+
+    public PlayerActionCommand _currentActionCommand;
+    public PlayerActionCommand _pendingActionCommand;
+    public float _currentCastTime;
+
+    public delegate void CastTimeChangedDelegate(Actor actor, float oldCastTime, float newCastTime, float maxCastTime);
+    public CastTimeChangedDelegate OnCastTimeChangedDelegate;
 
     public override void Start()
     {
@@ -44,9 +51,58 @@ public class Player : Actor
         _playerActions[(int)PlayerAction.Protect] = _protect;
     }
 
-    public void SelectTarget(PartyMember partyMember)
+    public void ExecuteCommand(PlayerActionCommand actionCommand)
     {
-        _target = partyMember;
+        if (actionCommand.CurrentRecastTime > 0 ||
+            CurrentMP < actionCommand.MpCost ||
+            _target == null)
+        {
+            return;
+        }
+
+        if (_currentActionCommand == null)
+        {
+            _currentActionCommand = actionCommand;
+            _currentCastTime = _currentActionCommand.CastTime;
+            _currentActionCommand.StartRecastTime();
+        }
+        else if (_currentCastTime <= 0.2f)
+        {
+            _pendingActionCommand = actionCommand;
+        }
+    }
+
+    public void Update()
+    {
+        if (_currentCastTime > 0)
+        {
+            float oldCastTime = _currentCastTime;
+            _currentCastTime = Mathf.Max(0, _currentCastTime - Time.deltaTime);
+
+            if (_currentCastTime != oldCastTime &&
+                OnCastTimeChangedDelegate != null)
+            {
+                OnCastTimeChangedDelegate(this, oldCastTime, _currentCastTime, _currentActionCommand.CastTime);
+            }
+        }
+
+        if (_currentCastTime <= 0)
+        {
+            ReduceMp(_currentActionCommand.MpCost);
+            _currentActionCommand.Execute(_target);
+            _currentActionCommand = null;
+        }
+
+        if (_pendingActionCommand != null)
+        {
+            ExecuteCommand(_pendingActionCommand);
+            _pendingActionCommand = null;
+        }
+    }
+
+    public void SelectTarget(Actor actor)
+    {
+        _target = actor;
     }
 
     public void Vita()

@@ -63,6 +63,7 @@ public abstract class Actor : MonoBehaviour
 
     public int MaxHP { get { return _maxHp; } }
     public int CurrentHP { get { return _currentHp; } }
+    public int CurrentMP { get { return _currentMp; } }
     public int MaxMP { get { return _maxMp; } }
     public bool IsParalyzed { get { return _paralysisActive; } }
 
@@ -164,7 +165,7 @@ public abstract class Actor : MonoBehaviour
 
         if (OnMpChangedDelegate != null)
         {
-            OnMpChangedDelegate(this, oldValue, _currentHp);
+            OnMpChangedDelegate(this, oldValue, _currentMp);
         }
     }
 

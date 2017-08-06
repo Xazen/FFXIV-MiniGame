@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class MpGUI : MonoBehaviour
 {
-
     [SerializeField]
     private Actor _actor;
 
@@ -24,10 +23,5 @@ public class MpGUI : MonoBehaviour
     {
         _mpBarImage.fillAmount = (float)newValue / actor.MaxMP;
         _mpText.text = newValue.ToString();
-    }
-
-    private void OnDestroy()
-    {
-        _actor.OnMpChangedDelegate -= OnMpChanged;
     }
 }

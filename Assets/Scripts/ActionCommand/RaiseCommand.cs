@@ -3,11 +3,11 @@
 public class RaiseCommand : PlayerActionCommand
 {
     [SerializeField]
-    private int _healValue;
+    private float _healValue;
 
     public override void Execute(Actor target)
     {
         base.Execute(target);
-        target.Raise(_healValue);
+        target.Raise(Mathf.RoundToInt(target.MaxHP * _healValue));
     }
 }
