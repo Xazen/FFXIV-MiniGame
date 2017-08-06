@@ -1,13 +1,9 @@
 fileFormatVersion: 2
-guid: ced5a945b0925c5489a63f173a674f77
-timeCreated: 1502040618
+guid: d50b731830be1b144b572202e691fec0
+timeCreated: 1502040385
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: White-Mage-Effect-2_0
-    21300002: White-Mage-Effect-2_1
-    21300004: White-Mage-Effect-2_2
-    21300006: White-Mage-Effect-2_4
+  fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -43,7 +39,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -77,63 +73,7 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: White-Mage-Effect-2_0
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 25
-        width: 21
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: White-Mage-Effect-2_1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 26
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: White-Mage-Effect-2_2
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 2
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: White-Mage-Effect-2_4
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 2
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
     physicsShape: []
   spritePackingTag: 
