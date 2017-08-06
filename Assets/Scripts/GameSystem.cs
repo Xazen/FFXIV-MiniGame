@@ -4,6 +4,20 @@ using UnityEngine.SceneManagement;
 
 public class GameSystem : MonoBehaviour
 {
+    [Header("Audio")]
+    public AudioSource MusicSource;
+    public AudioSource JingleSource;
+    public AudioSource SoundSource;
+
+    [Header("Clips")]
+    public AudioClip OpenWindow;
+    public AudioClip DutyStartJinggle;
+    public AudioClip DutyFailedJinggle;
+    public AudioClip DutyCompleteJinggle;
+    public AudioClip FullPartyJinggle;
+    public AudioClip BackgroundMusic;
+    public AudioClip WinMusic;
+
     [Header("UI")]
     public GameObject FinishDialog;
     public GameObject DutyStart;
@@ -37,9 +51,14 @@ public class GameSystem : MonoBehaviour
     private IEnumerator StartDuty()
     {
         DutyStart.SetActive(true);
-        yield return new WaitForSeconds(2.5f);
+        JingleSource.PlayOneShot(DutyStartJinggle);
+        yield return new WaitForSeconds(4.5f);
         DutyStart.SetActive(false);
+        JingleSource.PlayOneShot(FullPartyJinggle);
         GameRunning = true;
+        MusicSource.loop = true;
+        MusicSource.clip = BackgroundMusic;
+        MusicSource.Play();
     }
 
     public void SelectTarget(Actor actor)
@@ -59,10 +78,16 @@ public class GameSystem : MonoBehaviour
     {
         GameRunning = false;
         DutyComplete.SetActive(true);
+        MusicSource.Stop();
+        JingleSource.PlayOneShot(DutyCompleteJinggle);
         yield return new WaitForSeconds(2.5f);
         DutyComplete.SetActive(false);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2.5f);
         FinishDialog.SetActive(true);
+        SoundSource.PlayOneShot(OpenWindow);
+        MusicSource.clip = WinMusic;
+        MusicSource.loop = false;
+        MusicSource.Play();
     }
 
     private void OnPlayerHpChanged(Actor actor, int oldValue, int newValue)
@@ -77,7 +102,8 @@ public class GameSystem : MonoBehaviour
     {
         GameRunning = false;
         DutyFailed.SetActive(true);
-        yield return new WaitForSeconds(2.5f);
+        JingleSource.PlayOneShot(DutyFailedJinggle);
+        yield return new WaitForSeconds(3.5f);
         DutyFailed.SetActive(false);
         SceneManager.LoadScene("Accept");
     }

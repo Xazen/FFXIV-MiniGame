@@ -16,7 +16,7 @@ public class VitraCommand : PlayerActionCommand
 
     public override bool CanBeUsed(Actor target)
     {
-        return (!target.IsDead());
+        return (!target.IsDead() && target.CurrentHP < target.MaxHP);
     }
 
     public override void Execute(Actor target)

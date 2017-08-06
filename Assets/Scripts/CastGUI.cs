@@ -22,7 +22,7 @@ public class CastGUI : MonoBehaviour
     private void OnCastTimeChanged(Actor actor, float oldCastTime, float newCastTime, float maxCastTime)
     {
         _castBarImage.fillAmount = 1f - (newCastTime / maxCastTime);
-        _castText.text = newCastTime.ToString();
+        _castText.text = newCastTime.ToString("0.00");
 
         gameObject.SetActive(newCastTime > 0);
     }

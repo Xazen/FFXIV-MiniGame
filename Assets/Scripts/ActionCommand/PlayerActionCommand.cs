@@ -15,7 +15,7 @@ public abstract class PlayerActionCommand : ActionCommand
     public float CastTime { get { return _castTime; } }
     public float RecastTime { get { return _recastTime; } }
     public float CurrentRecastTime { get { return _currentRecastTime; } }
-
+    
     private float _currentRecastTime;
     private Actor _forceTarget;
 

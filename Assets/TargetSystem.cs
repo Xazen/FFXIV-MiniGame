@@ -2,6 +2,9 @@
 
 public class TargetSystem : MonoBehaviour
 {
+    public AudioSource TargetSource;
+    public AudioClip SwitchTarget;
+
     [SerializeField]
     private GameObject _playerArrow;
 
@@ -73,6 +76,7 @@ public class TargetSystem : MonoBehaviour
 
     public void SelectTarget(Actor actor)
     {
+        TargetSource.PlayOneShot(SwitchTarget);
         _playerArrow.SetActive(actor == _gameSystem.Player);
         _blackMageArrow.SetActive(actor == _gameSystem.BlackMage);
         _knightArrow.SetActive(actor == _gameSystem.MeleeDps);
