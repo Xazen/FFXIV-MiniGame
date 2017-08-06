@@ -65,6 +65,7 @@ public class Player : Actor
             _currentActionCommand = actionCommand;
             _currentCastTime = _currentActionCommand.CastTime;
             _currentActionCommand.StartRecastTime();
+            _currentActionCommand.ForceTarget(_target);
         }
         else if (_currentCastTime <= 0.2f)
         {
