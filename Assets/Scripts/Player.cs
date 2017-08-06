@@ -101,7 +101,7 @@ public class Player : Actor
         if (_currentCastTime <= 0 && _currentActionCommand != null)
         {
             ReduceMp(_currentActionCommand.MpCost);
-            _currentActionCommand.Execute(_target);
+            ExectueAction(_currentActionCommand, _target);
             _currentActionCommand = null;
         }
 
