@@ -18,6 +18,10 @@ public class PartyMember : Actor
     {
         base.Update();
 
+        if (IsDead() || !GameSystem.Instance().GameRunning)
+        {
+            return;
+        }
         TryAttack();
     }
     

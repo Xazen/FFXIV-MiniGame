@@ -54,7 +54,7 @@ public class Player : Actor
 
     public void ExecuteCommand(PlayerActionCommand actionCommand)
     {
-        if (IsDead())
+        if (IsDead() || !GameSystem.Instance().GameRunning)
         {
             return;
         }
@@ -81,7 +81,7 @@ public class Player : Actor
 
     public void Update()
     {
-        if (IsDead())
+        if (IsDead() || !GameSystem.Instance().GameRunning)
         {
             return;
         }

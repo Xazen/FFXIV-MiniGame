@@ -35,7 +35,7 @@ public class Boss : Actor
     protected override void Update()
     {
         base.Update();
-        if (IsDead())
+        if (IsDead() || !GameSystem.Instance().GameRunning)
         {
             return;
         }
