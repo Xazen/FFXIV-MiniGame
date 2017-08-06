@@ -14,7 +14,13 @@ public class TargetSystem : MonoBehaviour
     [SerializeField]
     private GameObject _tankArrow;
 
+    [SerializeField]
+    private Actor[] _selectOrder;
+
     private GameSystem _gameSystem;
+
+    public delegate void TargetChangedDelegate(Actor newTarget);
+    public TargetChangedDelegate OnTargetChangedDelegate;
       
     private void Start()
     {
@@ -38,6 +44,31 @@ public class TargetSystem : MonoBehaviour
                 Debug.Log("You selected the " + hit.transform.name); // ensure you picked right object
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            Actor currentTarget = _gameSystem.Player.Target;
+            if (currentTarget == null)
+            {
+                SelectTarget(_selectOrder[0]);
+            }
+
+            for (int i = 0; i < _selectOrder.Length; i++)
+            {
+                Actor actor = _selectOrder[i];
+                if (actor == currentTarget)
+                {
+                    if (i + 1 < _selectOrder.Length)
+                    {
+                        SelectTarget(_selectOrder[i + 1]);
+                    }
+                    else
+                    {
+                        SelectTarget(_selectOrder[0]);
+                    }
+                }
+            }
+        }
     }
 
     public void SelectTarget(Actor actor)
@@ -48,5 +79,9 @@ public class TargetSystem : MonoBehaviour
         _tankArrow.SetActive(actor == _gameSystem.Tank);
 
         _gameSystem.Player.SelectTarget(actor);
+        if (OnTargetChangedDelegate != null)
+        {
+            OnTargetChangedDelegate(actor);
+        }        
     }
 }

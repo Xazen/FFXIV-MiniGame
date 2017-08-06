@@ -32,6 +32,7 @@ public class Player : Actor
 
     private PlayerActionCommand[] _playerActions = new PlayerActionCommand[6];
     private Actor _target;
+    public Actor Target { get { return _target; } }
 
     public PlayerActionCommand _currentActionCommand;
     public PlayerActionCommand _pendingActionCommand;

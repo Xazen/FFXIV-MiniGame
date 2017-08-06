@@ -7,6 +7,7 @@ public class GameSystem : MonoBehaviour
     public PartyMember Tank;
     public PartyMember MeleeDps;
     public Boss Hydra;
+    public TargetSystem TargetSystem;
 
     public static GameSystem Instance()
     {
@@ -17,6 +18,11 @@ public class GameSystem : MonoBehaviour
     {
         Player.OnHpChangedDelegate += OnPlayerHpChanged;
         Hydra.OnHpChangedDelegate += OnHydraHpChanged;
+    }
+
+    public void SelectTarget(Actor actor)
+    {
+        TargetSystem.SelectTarget(actor);
     }
 
     private void OnHydraHpChanged(Actor actor, int oldValue, int newValue)
@@ -34,4 +40,5 @@ public class GameSystem : MonoBehaviour
             //TODO you lose
         }
     }
+
 }
