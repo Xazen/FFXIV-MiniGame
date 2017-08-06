@@ -2,6 +2,9 @@
 
 public abstract class Actor : MonoBehaviour
 {
+    private readonly float ProtectDamageMultiplier = 0.8f;
+    private readonly float ParalysisDuration = 10f;
+
     private readonly int DieAnimatorTrigger = Animator.StringToHash("Die");
     private readonly int ActionAnimatorTrigger = Animator.StringToHash("Attack");
     private readonly int RaiseAnimatorTrigger = Animator.StringToHash("Raise");
@@ -35,7 +38,11 @@ public abstract class Actor : MonoBehaviour
     
     private int _currentMp;
     private float _timeUntilNextAutoMpRegeneration;
-           
+
+    private bool _isProtectEnabled;
+    private bool _paralysisActive;
+    private float _currentParalysisTime;
+
     public delegate void HpChangedDelegate(Actor actor, int oldValue, int newValue);
     public event HpChangedDelegate OnHpChangedDelegate;
 
@@ -47,10 +54,18 @@ public abstract class Actor : MonoBehaviour
 
     public delegate void ActorRaiseDelegate(Actor actor);
     public event ActorRaiseDelegate OnActorRaiseDelegate;
+    
+    public delegate void ProtectChangedDelegate(Actor actor, bool isActive);
+    public event ProtectChangedDelegate OnProtectChangedDelegate;
+
+    public delegate void ParalysisChangedDelegate(Actor actor, bool isActive);
+    public event ParalysisChangedDelegate OnParalysisChangedDelegate;
 
     public int MaxHP { get { return _maxHp; } }
     public int CurrentHP { get { return _currentHp; } }
     public int MaxMP { get { return _maxMp; } }
+    public bool IsParalyzed { get { return _paralysisActive; } }
+
 
     public virtual void Start()
     {
@@ -67,25 +82,31 @@ public abstract class Actor : MonoBehaviour
 
         TryRegenerateHp();
         TryRegenerateMp();
+        ReduceParalysis();
     }
 
-    private void TryRegenerateMp()
+    public void CauseParalysis()
     {
-        _timeUntilNextAutoMpRegeneration -= Time.deltaTime;
-        if (_timeUntilNextAutoMpRegeneration <= 0)
+        if (!_paralysisActive)
         {
-            IncreaseHp(_autoMpRegenerateValue);
-            _timeUntilNextAutoMpRegeneration = _autoMpRegenerateFrequency;
+            _paralysisActive = true;
+            if (OnParalysisChangedDelegate != null)
+            {
+                OnParalysisChangedDelegate(this, true);
+                _currentParalysisTime = ParalysisDuration;
+            }
         }
     }
 
-    private void TryRegenerateHp()
+    public void CastProtect()
     {
-        _timeUntilNextAutoHpRegeneration -= Time.deltaTime;
-        if (_timeUntilNextAutoHpRegeneration <= 0)
+        if (!_isProtectEnabled)
         {
-            IncreaseHp(_autoHpRegenerateValue);
-            _timeUntilNextAutoHpRegeneration = _autoHpRegenerateFrequency;
+            _isProtectEnabled = true;
+            if (OnProtectChangedDelegate != null)
+            {
+                OnProtectChangedDelegate(this, true);
+            }
         }
     }
 
@@ -94,6 +115,11 @@ public abstract class Actor : MonoBehaviour
         if (IsDead())
         {
             return;
+        }
+
+        if (_isProtectEnabled)
+        {
+            value = Mathf.RoundToInt(value * ProtectDamageMultiplier);
         }
 
         int oldValue = _currentHp;
@@ -163,6 +189,24 @@ public abstract class Actor : MonoBehaviour
         return _currentHp <= 0;
     }
 
+    public bool IsProtectEnabled()
+    {
+        return _isProtectEnabled;
+    }
+
+    public void DisableParalysis()
+    {
+        if (_paralysisActive)
+        {
+            _paralysisActive = false;
+            if (OnParalysisChangedDelegate != null)
+            {
+                OnParalysisChangedDelegate(this, false);
+                _currentParalysisTime = 0;
+            }
+        }
+    }
+
     public void Raise(int hp)
     {
         if (!IsDead())
@@ -195,9 +239,49 @@ public abstract class Actor : MonoBehaviour
         _animator.SetTrigger(ActionAnimatorTrigger);
     }
 
+    private void TryRegenerateMp()
+    {
+        _timeUntilNextAutoMpRegeneration -= Time.deltaTime;
+        if (_timeUntilNextAutoMpRegeneration <= 0)
+        {
+            IncreaseHp(_autoMpRegenerateValue);
+            _timeUntilNextAutoMpRegeneration = _autoMpRegenerateFrequency;
+        }
+    }
+
+    private void TryRegenerateHp()
+    {
+        _timeUntilNextAutoHpRegeneration -= Time.deltaTime;
+        if (_timeUntilNextAutoHpRegeneration <= 0)
+        {
+            IncreaseHp(_autoHpRegenerateValue);
+            _timeUntilNextAutoHpRegeneration = _autoHpRegenerateFrequency;
+        }
+    }
+
+    private void ReduceParalysis()
+    {
+        _currentParalysisTime = Mathf.Max(_currentParalysisTime - Time.deltaTime, 0);
+        if (_currentParalysisTime <= 0)
+        {
+            DisableParalysis();
+        }
+    }
+
     private void Die()
     {
         _animator.SetTrigger(DieAnimatorTrigger);
+        DisableParalysis();
+
+        if (_isProtectEnabled)
+        {
+            _isProtectEnabled = false;
+            if (OnProtectChangedDelegate != null)
+            {
+                OnProtectChangedDelegate(this, false);
+            }
+        }
+
         if (OnActorDieDelegate != null)
         {
             OnActorDieDelegate(this);

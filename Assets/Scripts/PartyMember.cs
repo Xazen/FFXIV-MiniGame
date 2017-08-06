@@ -13,16 +13,21 @@ public class PartyMember : Actor
     private float _attackFrequency;
 
     private float _timeUntilNextAttack;
-
+        
     protected override void Update()
     {
         base.Update();
 
         TryAttack();
     }
-
+    
     private void TryAttack()
     {
+        if (IsParalyzed)
+        {
+            return;
+        }
+
         _timeUntilNextAttack -= Time.deltaTime;
         if (_timeUntilNextAttack <= 0)
         {

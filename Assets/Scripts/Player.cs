@@ -1,4 +1,6 @@
-﻿public class Player : Actor
+﻿using UnityEngine;
+
+public class Player : Actor
 {
     public enum PlayerAction
     {
@@ -10,11 +12,22 @@
         Protect
     }
 
+    [SerializeField]
     private PlayerActionCommand _vita;
+
+    [SerializeField]
     private PlayerActionCommand _vitra;
+
+    [SerializeField]
     private PlayerActionCommand _vitga;
+
+    [SerializeField]
     private PlayerActionCommand _esuna;
+
+    [SerializeField]
     private PlayerActionCommand _raise;
+
+    [SerializeField]
     private PlayerActionCommand _protect;
 
     private PlayerActionCommand[] _playerActions = new PlayerActionCommand[6];
