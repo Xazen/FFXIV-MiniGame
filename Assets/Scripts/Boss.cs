@@ -35,7 +35,10 @@ public class Boss : Actor
     protected override void Update()
     {
         base.Update();
-
+        if (IsDead())
+        {
+            return;
+        }
         TryAttack();
         OnHpChangedDelegate += OnHpChanged;
     }

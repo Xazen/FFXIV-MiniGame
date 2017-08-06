@@ -756,7 +756,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 72.399994, y: 0}
+  m_SizeDelta: {x: 32.600006, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116758822
 MonoBehaviour:
@@ -1694,7 +1694,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 247922732}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 1502296851}
@@ -3226,7 +3226,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 577977213}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 1616857046}
@@ -3521,21 +3521,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 1710376281}
-  _maxHp: 1600
+  _maxHp: 1400
   _autoHpRegenerateValue: 50
   _autoHpRegenerateFrequency: 10
-  _maxMp: 2100
-  _autoMpRegenerateValue: 10
-  _autoMpRegenerateFrequency: 20
+  _maxMp: 1700
+  _autoMpRegenerateValue: 0
+  _autoMpRegenerateFrequency: 0
   _vita: {fileID: 455467056}
   _vitra: {fileID: 649471381}
   _vitga: {fileID: 1753763606}
   _esuna: {fileID: 1154187367}
   _raise: {fileID: 802316182}
   _protect: {fileID: 168337155}
-  _currentActionCommand: {fileID: 0}
-  _pendingActionCommand: {fileID: 0}
-  _currentCastTime: 0
 --- !u!65 &596118452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3668,7 +3665,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 72.399994, y: 0}
+  m_SizeDelta: {x: 32.600006, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600636709
 MonoBehaviour:
@@ -4396,7 +4393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mpCost: 60
-  _castTime: 8
+  _castTime: 6
   _recastTime: 2.5
   _healValue: 0.3
 --- !u!1 &835473985
@@ -4785,8 +4782,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c13a520c0853b4bab1d954dcf2dae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attackDamage: 125
+  _attackDamage: 200
   _paralyzedChance: 0.1
+  _timeUntilDamage: 0.87
+  _effectPrefab: {fileID: 1760695538846066, guid: 409b063addd9f384a84534f852a06fce,
+    type: 2}
 --- !u!1 &901770208
 GameObject:
   m_ObjectHideFlags: 0
@@ -5540,7 +5540,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1003595697}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 214478749}
@@ -5631,7 +5631,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 72.399994, y: 0}
+  m_SizeDelta: {x: 32.600006, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013857524
 MonoBehaviour:
@@ -6182,6 +6182,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fcc8c4ff8b96c64794a0e6e15b5f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeUntilDamage: 1.3
+  _effectPrefab: {fileID: 1370337369470458, guid: a6a15130cd2e77642ae157ed70fb9ead,
+    type: 2}
 --- !u!1 &1154187365
 GameObject:
   m_ObjectHideFlags: 0
@@ -6589,7 +6592,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 72.399994, y: 0}
+  m_SizeDelta: {x: 32.600006, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261548830
 MonoBehaviour:
@@ -7635,7 +7638,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 72.399994, y: 0}
+  m_SizeDelta: {x: 32.600006, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511104581
 MonoBehaviour:
@@ -8221,7 +8224,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c25cb3318c5d4a918eae91e41a004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attackDamage: 315
+  _attackDamage: 500
+  _timeUntilDamage: 1.1
+  _effectPrefab: {fileID: 1909161126298578, guid: 419091db7d86ff94f9f8e77811ce77ff,
+    type: 2}
 --- !u!1 &1568019675
 GameObject:
   m_ObjectHideFlags: 0
@@ -8359,7 +8365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 910843419}
-  _maxHp: 20000
+  _maxHp: 15000
   _autoHpRegenerateValue: 0
   _autoHpRegenerateFrequency: 0
   _maxMp: 0
@@ -8370,17 +8376,17 @@ MonoBehaviour:
     _hpTrigger: 1
     _probabilityWeight: 10
     _attack: {fileID: 883233552}
-    _tankProbability: 40
-    _knightProbability: 20
-    _blackMageProbability: 20
-    _whiteMageProbability: 20
+    _tankProbability: 60
+    _knightProbability: 15
+    _blackMageProbability: 15
+    _whiteMageProbability: 10
   _aoeAttack:
     _hpTrigger: 0.8
     _probabilityWeight: 5
     _attack: {fileID: 1561003159}
-    _tankProbability: 30
-    _knightProbability: 30
-    _blackMageProbability: 30
+    _tankProbability: 20
+    _knightProbability: 50
+    _blackMageProbability: 20
     _whiteMageProbability: 10
   _allAttack:
     _hpTrigger: 0.4
@@ -8392,7 +8398,7 @@ MonoBehaviour:
     _whiteMageProbability: 25
   _instantDeadAttack:
     _hpTrigger: 0.2
-    _probabilityWeight: 5
+    _probabilityWeight: 3
     _attack: {fileID: 1140389819}
     _tankProbability: 20
     _knightProbability: 40
@@ -9986,7 +9992,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06f4276afd2206a4a8a68fb95456e5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attackDamage: 375
+  _attackDamage: 700
+  _timeUntilDamage: 0.6
+  _effectPrefab: {fileID: 1283405965228286, guid: 6229d151a0146dd46851fc62b375feec,
+    type: 2}
 --- !u!1 &1959571362
 GameObject:
   m_ObjectHideFlags: 0
@@ -10025,7 +10034,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 72.399994, y: 0}
+  m_SizeDelta: {x: 32.600006, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1959571364
 MonoBehaviour:
@@ -10805,7 +10814,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2107908033}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 72519529}

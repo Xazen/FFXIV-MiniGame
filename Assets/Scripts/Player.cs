@@ -34,9 +34,9 @@ public class Player : Actor
     private Actor _target;
     public Actor Target { get { return _target; } }
 
-    public PlayerActionCommand _currentActionCommand;
-    public PlayerActionCommand _pendingActionCommand;
-    public float _currentCastTime;
+    private PlayerActionCommand _currentActionCommand;
+    private PlayerActionCommand _pendingActionCommand;
+    private float _currentCastTime;
 
     public delegate void CastTimeChangedDelegate(Actor actor, float oldCastTime, float newCastTime, float maxCastTime);
     public CastTimeChangedDelegate OnCastTimeChangedDelegate;
@@ -54,6 +54,10 @@ public class Player : Actor
 
     public void ExecuteCommand(PlayerActionCommand actionCommand)
     {
+        if (IsDead())
+        {
+            return;
+        }
         if (actionCommand.CurrentRecastTime > 0 ||
             CurrentMP < actionCommand.MpCost ||
             _target == null ||
@@ -77,6 +81,11 @@ public class Player : Actor
 
     public void Update()
     {
+        if (IsDead())
+        {
+            return;
+        }
+
         if (_currentCastTime > 0)
         {
             float oldCastTime = _currentCastTime;
