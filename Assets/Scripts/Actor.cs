@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using DG.Tweening;
+using TMPro;
+using UnityEngine;
 
 public abstract class Actor : MonoBehaviour
 {
@@ -32,6 +35,12 @@ public abstract class Actor : MonoBehaviour
 
     [SerializeField]
     private float _autoMpRegenerateFrequency;
+
+    [SerializeField]
+    private TextMeshPro _healText;
+
+    [SerializeField]
+    private TextMeshPro _damageText;
 
     private int _currentHp;
     private float _timeUntilNextAutoHpRegeneration;
@@ -113,7 +122,7 @@ public abstract class Actor : MonoBehaviour
 
     public void ReduceHp(int value)
     {
-        if (IsDead())
+        if (IsDead() || value <= 0)
         {
             return;
         }
@@ -126,6 +135,12 @@ public abstract class Actor : MonoBehaviour
         int oldValue = _currentHp;
         _currentHp = Mathf.Max(_currentHp - value, 0);
 
+        DOTween.Kill(_damageText.transform);
+        _damageText.text = value.ToString();
+        _damageText.gameObject.SetActive(true);
+        _damageText.transform.localPosition = new Vector3(0, 1.0f, -1);
+        _damageText.transform.DOLocalMoveY(1.4f, 1f).OnComplete(OnDamageAnimationComplete);
+        
         if (OnHpChangedDelegate != null)
         {
             OnHpChangedDelegate(this, oldValue, _currentHp);
@@ -137,9 +152,14 @@ public abstract class Actor : MonoBehaviour
         }
     }
 
+    private void OnDamageAnimationComplete()
+    {
+        _damageText.gameObject.SetActive(false);
+    }
+
     public void IncreaseHp(int value)
     {
-        if (IsDead())
+        if (IsDead() || value <= 0)
         {
             return;
         }
@@ -147,10 +167,22 @@ public abstract class Actor : MonoBehaviour
         int oldValue = _currentHp;
         _currentHp = Mathf.Min(_currentHp + value, _maxHp);
 
+        DOTween.Kill(_healText.transform);
+        _healText.text = value.ToString();
+        _healText.gameObject.SetActive(true);
+        _healText.transform.localPosition = new Vector3(0, 1.1f, -1);
+        _healText.transform.DOLocalMoveY(1.3f, 1f).OnComplete(OnHealTextAnimationComplete);
+        
+
         if (OnHpChangedDelegate != null)
         {
             OnHpChangedDelegate(this, oldValue, _currentHp);
         }
+    }
+
+    private void OnHealTextAnimationComplete()
+    {
+        _healText.gameObject.SetActive(false);
     }
 
     public void ReduceMp(int value)
@@ -240,12 +272,17 @@ public abstract class Actor : MonoBehaviour
         _animator.SetTrigger(ActionAnimatorTrigger);
     }
 
+    public void PlayAttackAnimation()
+    {
+        _animator.SetTrigger(ActionAnimatorTrigger);
+    }
+
     private void TryRegenerateMp()
     {
         _timeUntilNextAutoMpRegeneration -= Time.deltaTime;
         if (_timeUntilNextAutoMpRegeneration <= 0)
         {
-            IncreaseHp(_autoMpRegenerateValue);
+            IncreaseMp(_autoMpRegenerateValue);
             _timeUntilNextAutoMpRegeneration = _autoMpRegenerateFrequency;
         }
     }

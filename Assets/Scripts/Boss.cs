@@ -25,7 +25,6 @@ public class Boss : Actor
     public override void Start()
     {
         base.Start();
-        _timeUntilNextAttack = _attackFrequency;
         _bossAttacks[0] = _basicAttack;
         _bossAttacks[1] = _aoeAttack;
         _bossAttacks[2] = _allAttack;
@@ -74,6 +73,7 @@ public class Boss : Actor
     {
         if (_priorityAttack != null)
         {
+            PlayAttackAnimation();
             _priorityAttack.Execute();
             _priorityAttack = null;
             return;
@@ -102,6 +102,7 @@ public class Boss : Actor
 
             if (randomValue <= attackProbability)
             {
+                PlayAttackAnimation();
                 bossAttack.Execute();
                 return;
             }

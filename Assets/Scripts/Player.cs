@@ -79,8 +79,9 @@ public class Player : Actor
         }
     }
 
-    public void Update()
+    protected override void Update()
     {
+        base.Update();
         if (IsDead() || !GameSystem.Instance().GameRunning)
         {
             return;
