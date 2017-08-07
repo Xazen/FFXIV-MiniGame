@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bd2d6db645b2c04c94abb0895431243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: d99511579a41cba448ec200eafec532b, type: 3}
+  Sfx: {fileID: 8300000, guid: 4f63167f31f9647b9984c2d5e4d9ca8e, type: 3}
   _attackDamage: 120
   _firePrefab: {fileID: 1916535476497606, guid: ceb34bf3422410448958d43bc9657202,
     type: 2}
@@ -945,10 +945,10 @@ RectTransform:
   m_Father: {fileID: 361376562}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25.333334, y: -24.899994}
-  m_SizeDelta: {x: 0, y: 49.799988}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50.59999, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116758822
 MonoBehaviour:
@@ -1439,7 +1439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68f567a345bc3042938cb090976d635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 28eead92ec380cd4392b5348e9794f0e, type: 3}
+  Sfx: {fileID: 8300000, guid: 33096d5af1fa5490cae9d49e98053d98, type: 3}
   _mpCost: 0
   _castTime: 2
   _recastTime: 2.5
@@ -3026,7 +3026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1cc3ad474dd40f4a95f2b87e7e5813e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 28eead92ec380cd4392b5348e9794f0e, type: 3}
+  Sfx: {fileID: 8300000, guid: 32e73d61f0ba840238c010be580e45b4, type: 3}
   _mpCost: 10
   _castTime: 2
   _recastTime: 2.5
@@ -4475,10 +4475,10 @@ RectTransform:
   m_Father: {fileID: 361376562}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 207.33333, y: -24.899994}
-  m_SizeDelta: {x: 0, y: 49.799988}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50.59999, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600636709
 MonoBehaviour:
@@ -4763,7 +4763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cb15f15e72e0554abd9d5fe3518a5e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 28eead92ec380cd4392b5348e9794f0e, type: 3}
+  Sfx: {fileID: 8300000, guid: bebc346afecf94443b1e97d3780212fb, type: 3}
   _mpCost: 20
   _castTime: 2
   _recastTime: 2.5
@@ -5429,7 +5429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e7b75bf665a79f46aa89eebd2ba78f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 28eead92ec380cd4392b5348e9794f0e, type: 3}
+  Sfx: {fileID: 8300000, guid: 22c14552acc894589bbe15eb616fca9f, type: 3}
   _mpCost: 60
   _castTime: 6
   _recastTime: 2.5
@@ -5904,7 +5904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c13a520c0853b4bab1d954dcf2dae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 34610a2823cc332449e2e544b24897ee, type: 3}
+  Sfx: {fileID: 8300000, guid: 76c69eea7516e4a1b803c38c965bdb08, type: 3}
   _attackDamage: 400
   _paralyzedChance: 0.1
   _timeUntilDamage: 0.87
@@ -6831,10 +6831,10 @@ RectTransform:
   m_Father: {fileID: 361376562}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 268, y: -24.899994}
-  m_SizeDelta: {x: 0, y: 49.799988}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50.59999, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013857524
 MonoBehaviour:
@@ -7475,7 +7475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fcc8c4ff8b96c64794a0e6e15b5f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 34610a2823cc332449e2e544b24897ee, type: 3}
+  Sfx: {fileID: 8300000, guid: 89cddfcd647204dd49202b118110809e, type: 3}
   _timeUntilDamage: 1.3
   _effectPrefab: {fileID: 1370337369470458, guid: a6a15130cd2e77642ae157ed70fb9ead,
     type: 2}
@@ -7600,7 +7600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c460618905a8a87429c831d03507f0b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 28eead92ec380cd4392b5348e9794f0e, type: 3}
+  Sfx: {fileID: 8300000, guid: 273f95c9833a54ce6897903edda3c86b, type: 3}
   _mpCost: 15
   _castTime: 1
   _recastTime: 2.5
@@ -8053,10 +8053,10 @@ RectTransform:
   m_Father: {fileID: 361376562}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 86, y: -24.899994}
-  m_SizeDelta: {x: 0, y: 49.799988}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50.59999, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261548830
 MonoBehaviour:
@@ -9221,7 +9221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b2d1dea1edcc7c4786982063ba2c643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: e13a26d2f7c8dce499de65488019f8a0, type: 3}
+  Sfx: {fileID: 8300000, guid: c225bdbf454a74d38948177dceca00d6, type: 3}
   _attackDamage: 40
 --- !u!65 &1502296854
 BoxCollider:
@@ -9350,10 +9350,10 @@ RectTransform:
   m_Father: {fileID: 361376562}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 146.66667, y: -24.899994}
-  m_SizeDelta: {x: 0, y: 49.799988}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50.59999, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511104581
 MonoBehaviour:
@@ -10049,7 +10049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c25cb3318c5d4a918eae91e41a004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 34610a2823cc332449e2e544b24897ee, type: 3}
+  Sfx: {fileID: 8300000, guid: c9b1e351fe1be4fb69ebd5176dc8a46c, type: 3}
   _attackDamage: 1000
   _timeUntilDamage: 1.1
   _effectPrefab: {fileID: 1909161126298578, guid: 419091db7d86ff94f9f8e77811ce77ff,
@@ -10559,7 +10559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e451b1202b7382c4e83ebe22eea7ee81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 62a2b865cfce0b946981663689c8e4c0, type: 3}
+  Sfx: {fileID: 8300000, guid: d05cb3254ad50468cba2866771631d81, type: 3}
   _attackDamage: 50
 --- !u!65 &1616857049
 BoxCollider:
@@ -11348,7 +11348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2ddd10c2d476a42ae0a315fa8f6509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 28eead92ec380cd4392b5348e9794f0e, type: 3}
+  Sfx: {fileID: 8300000, guid: 8a0a35d720cb64c69aaf9cd8c4619a48, type: 3}
   _mpCost: 40
   _castTime: 2
   _recastTime: 2.5
@@ -12390,7 +12390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06f4276afd2206a4a8a68fb95456e5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sfx: {fileID: 8300000, guid: 34610a2823cc332449e2e544b24897ee, type: 3}
+  Sfx: {fileID: 8300000, guid: a439e36666e134fbea94d5314379a701, type: 3}
   _attackDamage: 1200
   _timeUntilDamage: 0.6
   _effectPrefab: {fileID: 1283405965228286, guid: 6229d151a0146dd46851fc62b375feec,
@@ -12510,10 +12510,10 @@ RectTransform:
   m_Father: {fileID: 361376562}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 328.6667, y: -24.899994}
-  m_SizeDelta: {x: 0, y: 49.799988}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50.59999, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1959571364
 MonoBehaviour:
