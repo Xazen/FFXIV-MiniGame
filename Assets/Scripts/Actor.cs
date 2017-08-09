@@ -271,6 +271,18 @@ public abstract class Actor : MonoBehaviour
         attackCommand.Execute(target);
         _animator.SetTrigger(ActionAnimatorTrigger);
     }
+    
+    public void ExectueAction(PlayerActionCommand attackCommand, Actor target)
+    {
+        if (IsDead())
+        {
+            return;
+        }
+
+        attackCommand.Execute(target);
+        _animator.SetTrigger(ActionAnimatorTrigger);
+    }
+
 
     public void PlayAttackAnimation()
     {

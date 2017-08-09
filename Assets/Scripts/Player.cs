@@ -32,6 +32,7 @@ public class Player : Actor
 
     private PlayerActionCommand[] _playerActions = new PlayerActionCommand[6];
     private Actor _target;
+    private Actor _commandTarget;
     public Actor Target { get { return _target; } }
 
     private PlayerActionCommand _currentActionCommand;
@@ -71,6 +72,7 @@ public class Player : Actor
             _currentActionCommand = actionCommand;
             _currentCastTime = _currentActionCommand.CastTime;
             _currentActionCommand.StartRecastTime();
+            _commandTarget = _target;
             _currentActionCommand.ForceTarget(_target);
         }
         else if (_currentCastTime <= 0.2f)
@@ -102,7 +104,7 @@ public class Player : Actor
         if (_currentCastTime <= 0 && _currentActionCommand != null)
         {
             ReduceMp(_currentActionCommand.MpCost);
-            ExectueAction(_currentActionCommand, _target);
+            ExectueAction(_currentActionCommand, _commandTarget);
             _currentActionCommand = null;
         }
 

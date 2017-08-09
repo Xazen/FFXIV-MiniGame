@@ -20,7 +20,7 @@ public class ProtectCommand : PlayerActionCommand
     {
         base.Execute(target);
 
-        var effectPos = target.transform.position;
+            var effectPos = target.transform.position;
         effectPos.z = -1;
         _effect = Instantiate(_effectPrefab, effectPos, Quaternion.identity);
         Target.CastProtect();

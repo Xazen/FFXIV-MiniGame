@@ -38,8 +38,9 @@ public abstract class PlayerActionCommand : ActionCommand
             target = _forceTarget;
             _forceTarget = null;
         }
-
+        
         base.Execute(target);
+
         if (OnPlayerActionStarted != null)
         {
             OnPlayerActionStarted(this);
@@ -50,7 +51,7 @@ public abstract class PlayerActionCommand : ActionCommand
     
     public void ForceTarget(Actor target)
     {
-        _forceTarget = target;
+            _forceTarget = target;
     }
 
     public void StartRecastTime()

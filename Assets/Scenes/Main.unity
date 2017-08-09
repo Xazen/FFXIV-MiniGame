@@ -952,7 +952,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.59999, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116758822
 MonoBehaviour:
@@ -3226,10 +3226,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sfx: {fileID: 8300000, guid: 32e73d61f0ba840238c010be580e45b4, type: 3}
-  _mpCost: 10
+  _mpCost: 28
   _castTime: 2
   _recastTime: 2.5
-  _healValue: 302
+  _healValue: 432
   _timeUntilDamage: 1
   _effectPrefab: {fileID: 1654968029687152, guid: d6e9023817a0a0445b091ca5ce27f3f3,
     type: 2}
@@ -4536,8 +4536,8 @@ MonoBehaviour:
   _maxHp: 1921
   _autoHpRegenerateValue: 0
   _autoHpRegenerateFrequency: 0
-  _maxMp: 1324
-  _autoMpRegenerateValue: 8
+  _maxMp: 2648
+  _autoMpRegenerateValue: 12
   _autoMpRegenerateFrequency: 4
   _healText: {fileID: 855972763}
   _damageText: {fileID: 1563040287}
@@ -4679,7 +4679,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.59999, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600636709
 MonoBehaviour:
@@ -4965,10 +4965,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sfx: {fileID: 8300000, guid: bebc346afecf94443b1e97d3780212fb, type: 3}
-  _mpCost: 20
+  _mpCost: 52
   _castTime: 2
   _recastTime: 2.5
-  _healValue: 539
+  _healValue: 814
   _timeUntilDamage: 1
   _effectPrefab: {fileID: 1284495496337048, guid: d1126583663ce794fbde3a38cd249bf6,
     type: 2}
@@ -5631,7 +5631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sfx: {fileID: 8300000, guid: 22c14552acc894589bbe15eb616fca9f, type: 3}
-  _mpCost: 60
+  _mpCost: 174
   _castTime: 6
   _recastTime: 2.5
   _healValue: 0.3
@@ -7230,7 +7230,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.59999, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013857524
 MonoBehaviour:
@@ -7997,7 +7997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sfx: {fileID: 8300000, guid: 273f95c9833a54ce6897903edda3c86b, type: 3}
-  _mpCost: 15
+  _mpCost: 39
   _castTime: 1
   _recastTime: 2.5
   _timeUntilDamage: 1
@@ -8452,7 +8452,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.59999, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261548830
 MonoBehaviour:
@@ -8804,7 +8804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 15
+  m_Text: 39
 --- !u!222 &1294192607
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9783,7 +9783,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.59999, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511104581
 MonoBehaviour:
@@ -9895,7 +9895,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 40
+  m_Text: 113
 --- !u!222 &1516059566
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10179,7 +10179,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 60
+  m_Text: 174
 --- !u!222 &1530360785
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11305,7 +11305,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 20
+  m_Text: 52
 --- !u!222 &1604674636
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12361,7 +12361,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10
+  m_Text: 28
 --- !u!222 &1697738809
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12566,10 +12566,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sfx: {fileID: 8300000, guid: 8a0a35d720cb64c69aaf9cd8c4619a48, type: 3}
-  _mpCost: 40
+  _mpCost: 113
   _castTime: 2
   _recastTime: 2.5
-  _healValue: 976
+  _healValue: 613
   _timeUntilDamage: 1
   _effectPrefab: {fileID: 1809103631886786, guid: 3fd53537312966d409e09bdea7b82faa,
     type: 2}
@@ -13925,7 +13925,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.59999, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1959571364
 MonoBehaviour:
