@@ -953,7 +953,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.5, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116758822
 MonoBehaviour:
@@ -4538,7 +4538,7 @@ MonoBehaviour:
   _autoHpRegenerateValue: 0
   _autoHpRegenerateFrequency: 0
   _maxMp: 2648
-  _autoMpRegenerateValue: 20
+  _autoMpRegenerateValue: 21
   _autoMpRegenerateFrequency: 4
   _healText: {fileID: 855972763}
   _damageText: {fileID: 1563040287}
@@ -4680,7 +4680,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.5, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600636709
 MonoBehaviour:
@@ -7232,7 +7232,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.5, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013857524
 MonoBehaviour:
@@ -8455,7 +8455,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.5, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261548830
 MonoBehaviour:
@@ -9785,7 +9785,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.5, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511104581
 MonoBehaviour:
@@ -11055,7 +11055,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1585425445}
   - component: {fileID: 1585425446}
-  - component: {fileID: 1585425447}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -11121,8 +11120,8 @@ MonoBehaviour:
     _blackMageProbability: 20
     _whiteMageProbability: 10
   _allAttack:
-    _hpTrigger: 0.97
-    _probabilityWeight: 10
+    _hpTrigger: 0.6
+    _probabilityWeight: 5
     _attack: {fileID: 1933607586}
     _tankProbability: 25
     _knightProbability: 25
@@ -11136,17 +11135,6 @@ MonoBehaviour:
     _knightProbability: 40
     _blackMageProbability: 40
     _whiteMageProbability: 0
---- !u!114 &1585425447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1585425444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4e72607d95e5491e91a0360b4c2e1f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1588547708
 GameObject:
   m_ObjectHideFlags: 0
@@ -13937,7 +13925,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50.5, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1959571364
 MonoBehaviour:
