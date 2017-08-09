@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class BossAoeCommand : ActionCommand
@@ -49,6 +49,7 @@ public class BossAoeCommand : ActionCommand
         {
             _effect.Add(Instantiate(_effectPrefab, playerPos, Quaternion.identity));
         }
+        Camera.main.DOShakePosition(0.5f, 0.325f, 50);
         StartCoroutine(CauseDamage(_timeUntilDamage));
     }
 

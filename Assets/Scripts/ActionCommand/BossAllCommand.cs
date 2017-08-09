@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
+using TMPro.Examples;
 using UnityEngine;
 
 public class BossAllCommand : ActionCommand
@@ -36,7 +38,7 @@ public class BossAllCommand : ActionCommand
         var playerPos = gameSystem.Player.transform.position;
         playerPos.z = -1;
         _effect.Add(Instantiate(_effectPrefab, playerPos, Quaternion.identity));
-
+        Camera.main.DOShakePosition(0.5f, 0.75f, 50);
         StartCoroutine(CauseDamage(_timeUntilDamage));
     }
 
